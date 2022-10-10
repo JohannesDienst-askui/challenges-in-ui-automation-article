@@ -13,3 +13,11 @@ cd cypress
 npm install
 npm run test
 ```
+
+## Taiko
+
+```shell
+cd taiko
+npm install
+npm run test
+```
