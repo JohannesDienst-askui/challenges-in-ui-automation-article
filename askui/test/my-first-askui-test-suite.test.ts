@@ -12,6 +12,9 @@ describe('jest with askui', () => {
     await aui
       .typeIn('askui')
       .textfield()
+      .contains()
+      .text()
+      .withText("Username")
       .exec();
   });
 });

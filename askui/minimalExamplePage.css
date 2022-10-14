@@ -1,0 +1,12 @@
+.container {
+    
+}
+
+.inputs {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    width: 100px;
+}

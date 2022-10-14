@@ -3,11 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>A Basic example</title>
+    <link rel="stylesheet" href="./minimalExamplePage.css" type="text/css" media="all">
   </head>
   <body>
     <div class="container">
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username">
+      <div class="inputs">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="Username">
+      </div>
+      <div class="inputs">
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" placeholder="Password">
+      </div>
       <button id="loginButton" type="button" class="login">Login</button>
     </div>
   </body>
